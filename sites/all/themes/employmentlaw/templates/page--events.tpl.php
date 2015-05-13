@@ -115,11 +115,12 @@ drupal_add_css(path_to_theme() . '/css/tribe-events-theme.css', array('group' =>
           </div>
           <!-- /#name-and-slogan -->
           <?php endif; ?>
-          <div class="advertising"> <a target="_blank" href="#">
-            <?php	print '<img src="'.base_path().path_to_theme().'/images/animated-banner-600X100.gif">';?>
-            </a> </div>
-          <!--end advertisting--> 
-          
+         <?php if ($page['animated_banner']){ ?>
+		 <div class="advertising">
+       		<?php print render($page['animated_banner']);?>
+          </div>
+          <?php } ?>
+        <!--end advertisting--> 
         </div>
         <!-- search section -->
         <?php if ($page['top_search']){ 

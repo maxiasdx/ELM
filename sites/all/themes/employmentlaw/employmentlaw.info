@@ -13,6 +13,7 @@ regions[header] = Header
 regions[help] = Help
 regions[page_top] = Page top
 regions[top_search] = Top Search
+regions[animated_banner] = Animated Banner
 regions[page_bottom] = Page bottom
 regions[highlighted] = Highlighted
 

@@ -218,8 +218,8 @@ $databases = array (
     'default' => 
     array (
       'database' => 'sysdemo_employmentlaw',
-      'username' => 'sysdemo_employme',
-      'password' => '701VTctG~JM=',
+      'username' => 'root',
+      'password' => '',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',

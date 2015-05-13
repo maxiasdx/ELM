@@ -18,6 +18,11 @@ function employmentlaw_preprocess_html(&$variables) {
   if (!empty($variables['page']['top_search'])){
     $variables['classes_array'][] = 'top_search';
   }
+ 
+ if (!empty($variables['page']['animated_banner'])){
+    $variables['classes_array'][] = 'animated_banner';
+  }
+  
     
   if (!empty($variables['page']['footer_firstcolumn'])){
     $variables['classes_array'][] = 'footer_firstcolumn';
