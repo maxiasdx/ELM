@@ -2403,10 +2403,10 @@ margin-bottom: 10px;}
 
 
 #block-widgets-s-featured-video{ float:left}
+#block-block-9{ float:left}
 
 
-
-#block-widgets-s-advertisements, #block-views-calendar-block-1, #block-widgets-s-calender, #block-widgets-s-downloadnowlogo .content{padding: 10px;}
+#block-widgets-s-advertisements, #block-views-calendar-block-1, #block-widgets-s-calender, #block-widgets-s-downloadnowlogo, #block-block-7 .content{padding: 10px;}
 
 
 
@@ -2664,6 +2664,9 @@ display: block;
 
 
 #block-widgets-s-downloadnowlogo{float: left;width: 248px;border-top: 4px solid #231F20;}
+
+#block-block-7{float: left;width: 248px;border-top: 4px solid #231F20;}
+
 #block-widgets-s-newsletter { float:left; width:293px;border-left: 1px solid #e9e9e9;}
 
 
@@ -2674,5 +2677,4 @@ display: block;
 .search-results .search-snippet-info {font: normal 11px verdana;color: #555;line-height: 18px;}
 
 input[type="email"]{color:#000 !important;}
-
 textarea {color:#000 !important;}
